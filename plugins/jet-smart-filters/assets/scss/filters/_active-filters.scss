@@ -1,0 +1,33 @@
+.jet-smart-filters-active {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	.jet-active-filter {
+		position: relative;
+		display: flex;
+		padding-right: 10px;
+		cursor: pointer;
+	}
+
+	.jet-active-filters__title {
+		flex: 0 0 auto;
+	}
+
+	.jet-active-filter__remove {
+		position: absolute;
+		top: 0;
+		right: 0;
+		line-height: 1;
+	}
+}
+
+.jet-active-filters__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	width: 100%;
+}
